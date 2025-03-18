@@ -34,3 +34,19 @@ This assignment automates scaling from a local VirtualBox VM to Google Cloud Pla
 - **Update Packages**:
   ```bash
   sudo apt update && sudo apt upgrade -y
+  
+### 2. Clone Repository & Configure Script
+
+```bash
+git clone https://github.com/YourUsername/auto-scale-local-to-gcp
+cd auto-scale-local-to-gcp
+```
+- **Edit auto_scaling_script_gcs.sh:**
+```bash
+GCP_PROJECT="YOUR_PROJECT_ID"   # Replace with your GCP Project ID
+ZONE="us-central1-a"            # Replace with your GCP zone
+```
+- **Make the script executable:**
+```bash
+chmod +x auto_scaling_script_gcs.sh
+```
