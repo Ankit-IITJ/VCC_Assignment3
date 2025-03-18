@@ -65,3 +65,23 @@ gcloud config set project YOUR_PROJECT_ID
 - **Creates a GCP service account with required roles**
 - **Configures Apache and deploys a sample PHP app**
 - **Starts monitoring CPU/memory usage every 90 seconds**
+---
+## Testing Auto-Scaling ⚡
+
+### 1. Trigger High CPU Usage
+```bash
+sudo apt install stress
+stress -c 2 --timeout 60    # Spikes CPU usage to breach 75% threshold
+```
+### 2. Observe Scaling Actions
+#### The script will:
+
+- **Upload web content to Google Cloud Storage (GCS)**
+- **Create a GCP Instance Template, Managed Instance Group (MIG), and Load Balancer**
+- **Redirect traffic to GCP via Apache rewrite rules**
+
+### 3. Verify in GCP Console
+- **Instance Groups: Check for new VM instances**
+- **Load Balancer: Confirm traffic forwarding rules**
+- **Cloud Storage: Verify uploaded web content**
+
