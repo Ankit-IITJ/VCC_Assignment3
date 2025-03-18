@@ -85,3 +85,14 @@ stress -c 2 --timeout 60    # Spikes CPU usage to breach 75% threshold
 - **Load Balancer: Confirm traffic forwarding rules**
 - **Cloud Storage: Verify uploaded web content**
 
+---
+## Cleanup Resources 🧹
+#### Avoid unnecessary charges by deleting all GCP resources:
+```bash
+chmod +x delete_resources_gcs.sh
+./delete_resources_gcs.sh
+```
+
+---
+## Video Demo 🎥
+- **https://drive.google.com/file/d/1at4HfB215ify9o7pyahdEICdQ6etDeXF/view?usp=sharing**
