@@ -38,8 +38,8 @@ This assignment automates scaling from a local VirtualBox VM to Google Cloud Pla
 ### 2. Clone Repository & Configure Script
 
 ```bash
-git clone https://github.com/YourUsername/auto-scale-local-to-gcp
-cd auto-scale-local-to-gcp
+git clone https://github.com/Ankit-IITJ/VCC_Assignment3.git
+cd VCC_Assignment3
 ```
 - **Edit auto_scaling_script_gcs.sh:**
 ```bash
