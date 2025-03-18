@@ -50,3 +50,18 @@ ZONE="us-central1-a"            # Replace with your GCP zone
 ```bash
 chmod +x auto_scaling_script_gcs.sh
 ```
+### 3. Authenticate with GCP
+```bash
+gcloud auth login
+gcloud config set project YOUR_PROJECT_ID
+```
+### 4. Run the Auto-Scaling Script
+```bash
+./auto_scaling_script_gcs.sh
+```
+#### What the script does:
+
+- **Installs Google Cloud SDK (if missing)**
+- **Creates a GCP service account with required roles**
+- **Configures Apache and deploys a sample PHP app**
+- **Starts monitoring CPU/memory usage every 90 seconds**
