@@ -96,3 +96,19 @@ chmod +x delete_resources_gcs.sh
 ---
 ## Video Demo 🎥
 - **https://drive.google.com/file/d/1at4HfB215ify9o7pyahdEICdQ6etDeXF/view?usp=sharing**
+
+---
+## 📚 References
+- [GCP SDK](https://cloud.google.com/sdk?hl=en)
+- [GCP CLI](https://cloud.google.com/cli?hl=en)
+- [Auto-scaling in GCP](https://cloud.google.com/compute/docs/autoscaler)
+- [Firewall Rules](https://cloud.google.com/firewall/docs/firewalls)
+- [IAM Overview](https://cloud.google.com/iam/docs/overview)
+
+---
+
+## 👥 Authors
+- Ankit Kumar Chauhan (m23csa509@iitj.ac.in)
+
+---
+🚀 **Happy Cloud Computing!**
